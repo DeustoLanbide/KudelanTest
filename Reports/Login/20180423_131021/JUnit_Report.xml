@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="21" tests="2" failures="0" errors="0">
+   <testsuite name="Login" tests="2" failures="0" errors="0" time="21" timestamp="2018-04-23 13:10:24" hostname="inigocollado - 192.168.221.136" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/inigocollado/git/KudelanTest/Reports/Login/20180423_131021"/>
+         <property name="logFiles" value="/Users/inigocollado/git/KudelanTest/Reports/Login/20180423_131021/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="inigocollado - 192.168.221.136"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+         <property name="browser" value="Firefox 58.0"/>
+         <property name="hostAddress" value="192.168.221.136"/>
+         <property name="sessionId" value="6480c3cd-563f-7f4e-95bc-f54e036ecff3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/LoginKO" classname="Test Cases/LoginKO" status="PASSED">
+         <system-out><![CDATA[2018-04-23 13:10:24 - [TEST_CASE][PASSED] - Test Cases/LoginKO: Test Cases/LoginKO
+
+2018-04-23 13:10:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-23 13:10:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-23 13:10:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://desarrollo.lanbide.net:7001/lankuSolicitudesWar/login' successfully
+
+2018-04-23 13:10:31 - [MESSAGE][PASSED] - Navigate to 'http://desarrollo.lanbide.net:7001/lankuSolicitudesWar/login' successfully
+
+2018-04-23 13:10:31 - [TEST_STEP][PASSED] - setText: Text 'U03' is set on object 'Object Repository/input_usuario (1)'
+
+2018-04-23 13:10:32 - [MESSAGE][PASSED] - Text 'U03' is set on object 'Object Repository/input_usuario (1)'
+
+2018-04-23 13:10:32 - [TEST_STEP][PASSED] - setText: Text 'U0333' is set on object 'Object Repository/input_contrasena (1)'
+
+2018-04-23 13:10:32 - [MESSAGE][PASSED] - Text 'U0333' is set on object 'Object Repository/input_contrasena (1)'
+
+2018-04-23 13:10:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Entrar (1)' is clicked on
+
+2018-04-23 13:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Entrar (1)' is clicked on
+
+2018-04-23 13:10:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/p_Se ha producido un error a l' is clicked on
+
+2018-04-23 13:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/p_Se ha producido un error a l' is clicked on
+
+2018-04-23 13:10:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Aceptar' is clicked on
+
+2018-04-23 13:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Aceptar' is clicked on
+
+2018-04-23 13:10:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-23 13:10:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginOK" classname="Test Cases/LoginOK" status="PASSED">
+         <system-out><![CDATA[2018-04-23 13:10:34 - [TEST_CASE][PASSED] - Test Cases/LoginOK: Test Cases/LoginOK
+
+2018-04-23 13:10:34 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-04-23 13:10:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-04-23 13:10:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://desarrollo.lanbide.net:7001/lankuSolicitudesWar/login' successfully
+
+2018-04-23 13:10:42 - [MESSAGE][PASSED] - Navigate to 'http://desarrollo.lanbide.net:7001/lankuSolicitudesWar/login' successfully
+
+2018-04-23 13:10:42 - [TEST_STEP][PASSED] - setText: Text 'U03' is set on object 'Object Repository/input_usuario'
+
+2018-04-23 13:10:42 - [MESSAGE][PASSED] - Text 'U03' is set on object 'Object Repository/input_usuario'
+
+2018-04-23 13:10:42 - [TEST_STEP][PASSED] - setText: Text 'U03' is set on object 'Object Repository/input_contrasena'
+
+2018-04-23 13:10:42 - [MESSAGE][PASSED] - Text 'U03' is set on object 'Object Repository/input_contrasena'
+
+2018-04-23 13:10:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_Entrar' is clicked on
+
+2018-04-23 13:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/button_Entrar' is clicked on
+
+2018-04-23 13:10:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/span_Gestin de recursos genera' is clicked on
+
+2018-04-23 13:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Gestin de recursos genera' is clicked on
+
+2018-04-23 13:10:45 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-04-23 13:10:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-23 13:10:24 - [TEST_SUITE][PASSED] - Login: Test Cases/LoginOK]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
