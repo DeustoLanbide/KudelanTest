@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,,,2018-04-23 12:47:50,2018-04-23 12:48:15,"25,537s",FAILED
+,,,,,,
+Test Cases/LoginKO,,,2018-04-23 12:47:50,2018-04-23 12:48:12,"21,303s",FAILED
+openBrowser,,,2018-04-23 12:47:51,2018-04-23 12:48:12,"20,785s",FAILED
+,,,,,,
+Test Cases/LoginOK,,,2018-04-23 12:48:12,2018-04-23 12:48:15,"3,549s",FAILED
+openBrowser,,,2018-04-23 12:48:12,2018-04-23 12:48:15,"3,195s",FAILED

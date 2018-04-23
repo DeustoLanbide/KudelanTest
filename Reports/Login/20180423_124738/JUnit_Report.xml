@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="25" tests="0" failures="2" errors="0">
+   <testsuite name="Login" tests="0" failures="2" errors="0" time="25" timestamp="2018-04-23 12:47:50" hostname="icollado - V1PORT035.deustosistemas.local" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\icollado\\Katalon Studio\\kudelan\\Reports\\Login\\20180423_124738"/>
+         <property name="logFiles" value="C:\\Users\\icollado\\Katalon Studio\\kudelan\\Reports\\Login\\20180423_124738\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="icollado - V1PORT035.deustosistemas.local"/>
+         <property name="hostAddress" value="169.254.86.42"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.0.1"/>
+      </properties>
+      <testcase name="Test Cases/LoginKO" classname="Test Cases/LoginKO" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-04-23 12:47:50 - [TEST_CASE][FAILED] - Test Cases/LoginKO: Test Cases/LoginKO FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-23 12:47:51 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-04-23 12:48:12 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-04-23 12:47:50 - [TEST_CASE][FAILED] - Test Cases/LoginKO: Test Cases/LoginKO FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LoginOK" classname="Test Cases/LoginOK" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:33394 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)"/>
+         <system-out><![CDATA[2018-04-23 12:48:12 - [TEST_CASE][FAILED] - Test Cases/LoginOK: Test Cases/LoginOK FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:33394 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2018-04-23 12:48:12 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:33394 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)
+
+2018-04-23 12:48:15 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:33394 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)]]></system-out>
+         <system-err><![CDATA[2018-04-23 12:48:12 - [TEST_CASE][FAILED] - Test Cases/LoginOK: Test Cases/LoginOK FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:33394 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: CEdgeDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-23 12:47:50 - [TEST_SUITE][FAILED] - Login: Test Cases/LoginKO FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-04-23 12:47:50 - [TEST_SUITE][FAILED] - Login: Test Cases/LoginKO FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'V1PORT035', ip: '169.254.86.42', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

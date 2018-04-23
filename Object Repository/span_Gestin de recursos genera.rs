@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img</name>
+   <name>span_Gestin de recursos genera</name>
    <tag></tag>
-   <elementGuidId>71e80e15-23ee-4823-9168-5739476292ee</elementGuidId>
+   <elementGuidId>50554d3b-fa6b-46ce-8d81-645c0ecaf023</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,20 +11,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>text</name>
       <type>Main</type>
-      <value>http://desarrollo.lanbide.net:7001/lankuStatics/lanku/images/fondo_kudelan.jpg</value>
+      <value>Gestión de recursos generales</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formHttpSubmit&quot;)/div[@class=&quot;home&quot;]/div[1]/img[1]</value>
+      <value>id(&quot;formHttpSubmit&quot;)/div[@class=&quot;home&quot;]/div[1]/h1[1]/span[1]</value>
    </webElementProperties>
 </WebElementEntity>

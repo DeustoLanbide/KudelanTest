@@ -3,7 +3,7 @@
    <description></description>
    <name>input_contrasena</name>
    <tag></tag>
-   <elementGuidId>803a7d14-56a7-4f1b-82ca-8636c964aecb</elementGuidId>
+   <elementGuidId>ee4d59bd-d0ba-4786-99f1-6661c20bc786</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -24,13 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://desarrollo.lanbide.net:7001/lankuSolicitudesWar/login')
 
-WebUI.setText(findTestObject('Page_kudelan - Lanbide (1)/input_usuario'), 'U03')
+WebUI.setText(findTestObject('input_usuario'), 'U03')
 
-WebUI.setText(findTestObject('Page_kudelan - Lanbide (1)/input_contrasena'), 'U03')
+WebUI.setText(findTestObject('input_contrasena'), 'U03')
 
-WebUI.click(findTestObject('Page_kudelan - Lanbide (1)/button_Entrar'))
+WebUI.click(findTestObject('button_Entrar'))
 
-WebUI.click(findTestObject('Page_kudelan - Lanbide (1)/img'))
+WebUI.click(findTestObject('span_Gestin de recursos genera'))
 
 WebUI.closeBrowser()
 
